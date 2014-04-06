@@ -15,6 +15,7 @@
 void *imalloc(size_t _size, const char *_msg);
 int *int_new(int _i);
 double *double_new(double _d);
+void *iary_new(int _l, size_t _size);
 
 /*----------------------------------------------------------------------------*/
 /* file */

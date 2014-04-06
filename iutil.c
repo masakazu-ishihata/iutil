@@ -32,6 +32,14 @@ double *double_new(double _d)
 
   return p;
 }
+void *iary_new(int _l, size_t _size)
+{
+  void *p;
+
+  p = (void *)imalloc(_l * _size, "iary_new");
+
+  return p;
+}
 
 /*----------------------------------------------------------------------------*/
 /* file */
