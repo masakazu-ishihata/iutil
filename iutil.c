@@ -65,7 +65,6 @@ char *istrcln(const char *str)
 
   len = strlen(str) + 2;
   if( (p = (char *)malloc(len * sizeof(char)) ) == NULL){
-    perror("istrclon");
     exit(EXIT_FAILURE);
   }
   strcpy(p, str);
